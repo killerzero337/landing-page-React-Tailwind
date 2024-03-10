@@ -4,9 +4,9 @@ import arrowLeftImage from "/src/icons/arrows_left.png";
 import arrowRightImage from "/src/icons/arrows_right.png";
 function Carrusel() {
   const images = [
-    "/src/assets/fondo.webp",
-    "/src/assets/fondo2.jpg",
-    "/src/assets/fondo3.jpg",
+    "./assets/fondo.webp",
+    "./assets/fondo2.jpg",
+    "./assets/fondo3.jpg",
   ];
   const customPrevArrow = <img src={arrowLeftImage} alt="anterior" />;
   const customNextArrow = <img src={arrowRightImage} alt="siguiente" />;
