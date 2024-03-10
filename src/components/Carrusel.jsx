@@ -4,8 +4,8 @@ import arrowLeftImage from "/src/icons/arrows_left.png";
 import arrowRightImage from "/src/icons/arrows_right.png";
 function Carrusel() {
   const images = [
-    "./assets/fondo.webp",
-    "./assets/fondo2.jpg",
+    "/fondo.webp",
+    './assets/fondo2.jpg',
     "./assets/fondo3.jpg",
   ];
   const customPrevArrow = (
