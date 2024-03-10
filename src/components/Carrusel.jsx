@@ -4,9 +4,9 @@ import arrowLeftImage from "/src/icons/arrows_left.png";
 import arrowRightImage from "/src/icons/arrows_right.png";
 function Carrusel() {
   const images = [
-    "/src/assets/fondo.webp",
-    "/src/assets/fondo2.jpg",
-    "/src/assets/fondo3.jpg",
+    "./assets/fondo.webp",
+    "./assets/fondo2.jpg",
+    "./assets/fondo3.jpg",
   ];
   const customPrevArrow = (
     <img
@@ -28,23 +28,23 @@ function Carrusel() {
         <div className="each-slide-effect">
           <div style={{ backgroundImage: `url(${images[0]})` }}>
             <span>
-              <img src="/src/icons/casa.png" alt="" srcset="" />
+              <img src="./icons/casa.png" alt="" />
               <div>Hogareña</div>
             </span>
           </div>
         </div>
         <div className="each-slide-effect">
           <div style={{ backgroundImage: `url(${images[1]})` }}>
-          <span>
-              <img src="/src/icons/automata.png" alt="" srcset="" />
+            <span>
+              <img src="./icons/automata.png" alt="" />
               <div>Funcional</div>
             </span>
           </div>
         </div>
         <div className="each-slide-effect">
           <div style={{ backgroundImage: `url(${images[2]})` }}>
-          <span>
-              <img src="/src/icons/muebles.png" alt="" srcset="" />
+            <span>
+              <img src="./icons/muebles.png" alt="" />
               <div>Minimalista</div>
             </span>
           </div>
