@@ -1,12 +1,12 @@
 import { Zoom } from "react-slideshow-image"; //Esto es de canvas, explicar este paquete en clase
 import "react-slideshow-image/dist/styles.css";
-import arrowLeftImage from "/src/icons/arrows_left.png";
-import arrowRightImage from "/src/icons/arrows_right.png";
+import arrowLeftImage from "/icons/arrows_left.png";
+import arrowRightImage from "/icons/arrows_right.png";
 function Carrusel() {
   const images = [
-    "/fondo.webp",
-    './assets/fondo2.jpg',
-    "./assets/fondo3.jpg",
+    "/assets/fondo.webp",
+    '/assets/fondo2.jpg',
+    "/assets/fondo3.jpg",
   ];
   const customPrevArrow = (
     <img

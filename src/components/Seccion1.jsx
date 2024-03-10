@@ -5,7 +5,7 @@ function Seccion1() {
       <div className="h-full bg-cover bg-center ">
         {/* Agrega la imagen de fondo */}
         <img
-          src="src/assets/blog-post-1.jpg"
+          src="/assets/blog-post-1.jpg"
           alt="Descripción de la imagen"
           className="w-full h-full object-cover"
         />
