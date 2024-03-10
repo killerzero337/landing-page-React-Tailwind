@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 1.067em;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  font-family: "Old Standard TT", serif;
+}
+
+p {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover; /* Utiliza 'cover' para asegurar que la imagen cubra todo el contenedor */
+  background-position: center;
+  background-repeat: no-repeat; /* Cambiado a 'no-repeat' para evitar repeticiones */
+  height: 50vh;
+  min-height: 300px; /* Establece una altura mínima para evitar que las imágenes sean demasiado pequeñas */
+}
+
+.each-slide-effect span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 40vw;
+  font-size: 20px;
+  background: #efefef;
+  background-color: rgba(255, 255, 255, 0.452);
+  text-align: center;
+}
