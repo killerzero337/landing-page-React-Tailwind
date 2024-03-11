@@ -1,33 +1,100 @@
 import { Slide } from "react-slideshow-image"; //Esto es de canvas, explicar este paquete en clase
 import "react-slideshow-image/dist/styles.css";
-import arrowLeftImage from "/src/icons/arrows_left.png";
-import arrowRightImage from "/src/icons/arrows_right.png";
+import arrowLeftImage from "/icons/arrows_left.png";
+import arrowRightImage from "/icons/arrows_right.png";
 function Carrusel() {
   const images = [
-    "./assets/fondo.webp",
-    "./assets/fondo2.jpg",
-    "./assets/fondo3.jpg",
+    "./assets/Peces.webp",
+    "./assets/PecesLogo.webp",
+    "./assets/Rload.webp",
+    "./assets/RloadLogo.gif",
+    "./assets/wanna.webp",
+    "./assets/WannaLogo.webp",
+    "./assets/Rload.webp",
   ];
   const customPrevArrow = <img src={arrowLeftImage} alt="anterior" />;
   const customNextArrow = <img src={arrowRightImage} alt="siguiente" />;
   return (
-    <div className="w-full">
-      <Slide prevArrow={customPrevArrow} nextArrow={customNextArrow}>
-        <div className="slider-Info">
-          <div style={{ backgroundImage: `url(${images[0]})` }}>
-            <span>Slide 1</span>
-          </div>
-        </div>
-        <div className="slider-Info">
-          <div style={{ backgroundImage: `url(${images[1]})` }}>
-            <span>Slide 2</span>
-          </div>
-        </div>
-        <div className="slider-Info">
-          <div style={{ backgroundImage: `url(${images[2]})` }}>
-            <span>Slide 3</span>
-          </div>
-        </div>
+
+    <div className=" mt-5">
+      <div>
+        <h2 className=" text-center text-[2.5vh]">Nuestros fieles proveedores</h2>
+        <h3 className="text-center">Aquellos que confian en nuestros trabajo</h3>
+      </div>
+      <Slide
+        prevArrow={customPrevArrow}
+        nextArrow={customNextArrow}
+        slidesToScroll={2}
+        slidesToShow={2}
+        indicators={true}
+      >
+        <div
+          style={{
+            textAlign: "center",
+            background: `url(${images[0]})`,
+            padding: "200px 0",
+            fontSize: "30px",
+          }}
+        ></div>
+        <div
+          style={{
+            textAlign: "center",
+            background: `url(${images[1]})`,
+            padding: "200px 0",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            fontSize: "30px",
+          }}
+        ></div>
+        <div
+          style={{
+            textAlign: "center",
+            background: `url(${images[3]})`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            padding: "200px 0",
+            fontSize: "30px",
+          }}
+        ></div>
+        <div
+          style={{
+            textAlign: "center",
+            background: `url(${images[2]})`,
+            padding: "200px 0",
+            fontSize: "30px",
+          }}
+        ></div>
+        <div
+          style={{
+            textAlign: "center",
+            background: `url(${images[4]})`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
+            padding: "200px 0",
+            fontSize: "30px",
+          }}
+        ></div>
+        <div
+          style={{
+            textAlign: "center",
+            background: `url(${images[5]})`,
+            padding: "200px 0",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            fontSize: "30px",
+          }}
+        ></div>
+        <div
+          style={{
+            textAlign: "center",
+            background: `url(${images[0]})`,
+            padding: "200px 0",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            fontSize: "30px",
+          }}
+        ></div>
       </Slide>
     </div>
   );

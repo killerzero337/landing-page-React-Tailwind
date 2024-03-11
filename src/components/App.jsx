@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Seccion1 from "./Seccion1";
 import Footer from "./Footer";
 import Carrusel from "./Carrusel";
+import CarruselInfo from "./CarruselInfo";
 import Form from "./Form";
 // import GoogleMaps from "./GoogleMaps";
 import Subir from "./buttonUp";
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Seccion1 />
       <Carrusel />
+      <CarruselInfo />
       <Form />
       {/* <GoogleMaps/> */}
       <Footer />

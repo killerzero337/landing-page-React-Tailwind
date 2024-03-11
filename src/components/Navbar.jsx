@@ -2,9 +2,8 @@ import Carrusel from "./Carrusel";
 function Navbar() {
   return (
     <>
-      {/* navbar */}
       <div className="py-6 px-4 md:px-8 lg:px-16 bg-white flex justify-between md:text-[2.5vh] text-neutral-900 z-10 ">
-        <div className="bg-[url('./assets/logo-dark.png')] bg-center h-12 w-32 md:h-12 md:w-44 bg-contain bg-no-repeat"></div>
+        <div className="bg-[url('/assets/logo-dark.png')] bg-center h-12 w-32 md:h-12 md:w-44 bg-contain bg-no-repeat"></div>
 
         <ul className="hidden md:flex items-center space-x-5 ">
           <li>
@@ -28,15 +27,7 @@ function Navbar() {
               href="#"
               className="relative transition duration-500 ease-in-out hover:text-black  hover:bg-yellow-500/30 hover:p-0 border border-transparent"
             >
-              Service
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="relative transition duration-500 ease-in-out hover:text-black  hover:bg-yellow-500/30 hover:p-0 border border-transparent"
-            >
-              Help
+               Nuestros proveedores
             </a>
           </li>
         </ul>
@@ -51,16 +42,16 @@ function Navbar() {
               <div className="w-6 h-1 rotate-45 absolute bg-black"></div>
               <div className="w-6 h-1 -rotate-45 absolute bg-black"></div>
             </button>
-            <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-200/50">
+            <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
               <a href="#">Sobre nosotros</a>
             </li>
-            <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-200/50">
-              Contact
+            <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
+              <a href="#Form">Contact</a>
             </li>
-            <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-200/50">
-              Service
+            <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
+              Nuestros proveedores
             </li>
-            <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-200/50">
+            <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
               Help
             </li>
           </ul>
