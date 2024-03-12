@@ -102,11 +102,10 @@ function Form() {
             <div className="overflow-hidden bg-white rounded-md">
               <div className="p-6 sm:p-10">
                 <h3 className="text-3xl font-semibold text-black">
-                  Get a free quote
+                  ¡Contactanos!
                 </h3>
                 <p className="mt-4 text-base text-gray-600">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint.
+                ¡Adelante cuentanos tus ideas y mantengamos lo mas importante en contacto!
                 </p>
 
                 <form action="#" method="POST" className="mt-4">

@@ -5,7 +5,7 @@ function Footer() {
         <div className="text-center  xl:flex xl:items-center xl:justify-between xl:text-left">
           <div className="xl:flex text-[#2d2e32] xl:items-center xl:justify-start">
             <div className="md:flex md:justify-center flex justify-center">
-              <div className="bg-[url('./assets/logo-dark.png')] bg-center h-12 w-32 md:h-12 md:w-44 bg-contain bg-no-repeat"></div>
+              <div className="bg-[url('/assets/logo-dark.png')] bg-center h-12 w-32 md:h-12 md:w-44 bg-contain bg-no-repeat"></div>
             </div>
             <p className="mt-3 text-xs text-[#2d2e32] xl:ml-4 xl:mt-0">
               © Copyright 2024 Kastell
