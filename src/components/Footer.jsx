@@ -18,7 +18,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  className="text-sm text-[#2d2e32] transition-all duration-200  hover:bg-yellow-600/30 focus:text-opacity-80"
+                  className="text-sm text-[#2d2e32] transition-all duration-200  hover:bg-yellow-500/50 focus:text-opacity-80"
                 >
                   About
                 </a>
@@ -28,7 +28,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  className="text-sm text-[#2d2e32] transition-all duration-200  hover:bg-yellow-600/30 focus:text-opacity-80"
+                  className="text-sm text-[#2d2e32] transition-all duration-200  hover:bg-yellow-500/50 focus:text-opacity-80"
                 >
                   Services
                 </a>
@@ -38,7 +38,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  className="text-sm text-[#2d2e32] transition-all duration-200  hover:bg-yellow-600/30 focus:text-opacity-80"
+                  className="text-sm text-[#2d2e32] transition-all duration-200  hover:bg-yellow-500/50 focus:text-opacity-80"
                 >
                   {" "}
                   Privacy Policy{" "}
@@ -49,7 +49,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  className="text-sm text-[#2d2e32] transition-all duration-200  hover:bg-yellow-600/30 focus:text-opacity-80"
+                  className="text-sm text-[#2d2e32] transition-all duration-200  hover:bg-yellow-500/50 focus:text-opacity-80"
                 >
                   {" "}
                   Terms & Conditions{" "}
@@ -60,7 +60,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  className="text-sm text-[#2d2e32] transition-all duration-200  hover:bg-yellow-600/30 focus:text-opacity-80"
+                  className="text-sm text-[#2d2e32] transition-all duration-200  hover:bg-yellow-500/50 focus:text-opacity-80"
                 >
                   {" "}
                   Support{" "}

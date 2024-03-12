@@ -1,16 +1,18 @@
+
 function Form() {
   return (
-    <section className="py-10 bg-gray-900 sm:py-16 lg:py-24" id="Form">
+    <section className="py-10 bg-black/70 sm:py-16 lg:py-24" id="Form">
       <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:items-stretch md:grid-cols-2 gap-x-12 lg:gap-x-20 gap-y-10">
           <div className="flex flex-col justify-between lg:py-5">
-            <div>
+            <div className="flex flex-col justify-center">
               <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:leading-tight lg:text-5xl">
-                It’s time to build something exciting!
+                ¡Es hora de construir algo emocionante!
               </h2>
               <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-white">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis.
+                Estamos emocionados de saber más sobre tus ideas y proyectos.
+                Por favor, completa el formulario a continuación y nos pondremos
+                en contacto contigo lo antes posible.
               </p>
 
               <img
@@ -112,14 +114,14 @@ function Form() {
                     <div>
                       <label className="text-base font-medium text-gray-900">
                         {" "}
-                        Your name{" "}
+                        Nombre{" "}
                       </label>
                       <div className="mt-2.5 relative">
                         <input
                           type="text"
                           name=""
                           id=""
-                          placeholder="Enter your full name"
+                          placeholder="¿Comó le gustaria que le llamemos?"
                           className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
                         />
                       </div>
@@ -128,14 +130,14 @@ function Form() {
                     <div>
                       <label className="text-base font-medium text-gray-900">
                         {" "}
-                        Email address{" "}
+                        Email{" "}
                       </label>
                       <div className="mt-2.5 relative">
                         <input
                           type="text"
                           name=""
                           id=""
-                          placeholder="Enter your full name"
+                          placeholder="Correo electronico"
                           className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
                         />
                       </div>
@@ -144,13 +146,13 @@ function Form() {
                     <div>
                       <label className="text-base font-medium text-gray-900">
                         {" "}
-                        Project brief{" "}
+                        Descripcion{" "}
                       </label>
                       <div className="mt-2.5 relative">
                         <textarea
                           name=""
                           id=""
-                          placeholder="Enter your project brief"
+                          placeholder="Introduzca una idea general sobre su idea"
                           className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md resize-y focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
                           rows="4"
                         ></textarea>
@@ -160,9 +162,9 @@ function Form() {
                     <div>
                       <button
                         type="submit"
-                        className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-orange-500 border border-transparent rounded-md focus:outline-none hover:bg-orange-600 focus:bg-orange-600"
+                        className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-yellow-600/80 border border-transparent rounded-md focus:outline-none hover:bg-yellow-600 focus:bg-yellow-600"
                       >
-                        Get Free Quote
+                        Enviar Formulario
                       </button>
                     </div>
                   </div>
@@ -217,9 +219,10 @@ function Form() {
 
             <blockquote className="mt-6">
               <p className="text-lg leading-relaxed text-white">
-                You made it so simple. My new site is so much faster and easier
-                to work with than my old site. I just choose the page, make the
-                change and click save.
+                ¡Increíble experiencia de diseño de interiores! Transformaron mi
+                espacio de manera asombrosa, capturando exactamente lo que tenía
+                en mente. Profesionales, creativos y eficientes. ¡Altamente
+                recomendados!
               </p>
             </blockquote>
 

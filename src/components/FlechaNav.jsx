@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
@@ -6,7 +6,7 @@ function ScrollToTopButton() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      setIsVisible(scrollY > 100);
+      setIsVisible(scrollY > 170);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -25,7 +25,7 @@ function ScrollToTopButton() {
 
   return (
     <button
-      className={`fixed right-4 bottom-4 p-2 bg-yellow-500 text-white rounded-md transition-opacity duration-500 z-10  hover:opacity-80 ${
+      className={`fixed right-4 bottom-4 p-2 bg-yellow-500 text-white rounded-md transition-opacity duration-500 z-10 hover:bg-yellow-600 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       onClick={scrollToTop}

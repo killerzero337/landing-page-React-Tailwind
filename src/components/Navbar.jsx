@@ -2,14 +2,14 @@ import Carrusel from "./Carrusel";
 function Navbar() {
   return (
     <>
-      <div className="py-6 px-4 md:px-8 lg:px-16 bg-white flex justify-between md:text-[2.5vh] text-neutral-900 z-10 ">
+      <div className="py-6 px-4 md:px-8 lg:px-16 bg-white flex justify-between md:text-[2vh] text-neutral-900 z-10 ">
         <div className="bg-[url('/assets/logo-dark.png')] bg-center h-12 w-32 md:h-12 md:w-44 bg-contain bg-no-repeat"></div>
 
         <ul className="hidden md:flex items-center space-x-5 ">
           <li>
             <a
               href="#Sobre-Nosotros"
-              className="relative transition duration-500 ease-in-out hover:text-black hover:bg-yellow-500/30 hover:p-0 border border-transparent"
+              className="relative transition duration-500 ease-in-out hover:text-black hover:bg-yellow-500/50 hover:p-0 border border-transparent"
             >
               <span>Sobre nosotros</span>
             </a>
@@ -17,17 +17,25 @@ function Navbar() {
           <li>
             <a
               href="#Form"
-              className="relative transition duration-500 ease-in-out hover:text-black  hover:bg-yellow-500/30 hover:p-0 border border-transparent"
+              className="relative transition duration-500 ease-in-out hover:text-black  hover:bg-yellow-500/50 hover:p-0 border border-transparent"
             >
               Contactanos
             </a>
           </li>
           <li>
             <a
-              href="#"
-              className="relative transition duration-500 ease-in-out hover:text-black  hover:bg-yellow-500/30 hover:p-0 border border-transparent"
+              href="#Empresas"
+              className="relative transition duration-500 ease-in-out hover:text-black  hover:bg-yellow-500/50 hover:p-0 border border-transparent"
             >
-               Nuestros proveedores
+              Nuestros proveedores
+            </a>
+          </li>
+          <li>
+            <a
+              href="#Proyectos"
+              className="relative transition duration-500 ease-in-out hover:text-black  hover:bg-yellow-500/50 hover:p-0 border border-transparent"
+            >
+              Proyectos realizados
             </a>
           </li>
         </ul>
@@ -46,13 +54,13 @@ function Navbar() {
               <a href="#">Sobre nosotros</a>
             </li>
             <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
-              <a href="#Form">Contact</a>
+              <a href="#Form">Contacto</a>
             </li>
             <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
-              Nuestros proveedores
+              <a href="#Sobre-Nosotros">Nuestros proveedores</a>
             </li>
             <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
-              Help
+              <a href="#Proyectos">Proyectos realizados</a>
             </li>
           </ul>
         </button>

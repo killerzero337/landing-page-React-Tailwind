@@ -11,6 +11,7 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 body {
@@ -36,11 +37,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover; /* Utiliza 'cover' para asegurar que la imagen cubra todo el contenedor */
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; /* Cambiado a 'no-repeat' para evitar repeticiones */
+  background-repeat: no-repeat;
   height: 50vh;
-  min-height: 300px; /* Establece una altura mínima para evitar que las imágenes sean demasiado pequeñas */
+  min-height: 300px;
 }
 
 .each-slide-effect span {
@@ -54,4 +55,22 @@ p {
   background: #efefef;
   background-color: rgba(255, 255, 255, 0.452);
   text-align: center;
+}
+
+#Texto-Invitacion {
+  overflow: hidden;
+  border-right: 2px solid rgb(255, 196, 1);
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 2px;
+  animation: Escritura 10s steps(20) infinite;
+}
+
+@keyframes Escritura {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }

@@ -11,12 +11,10 @@ function Seccion1() {
         />
       </div>
 
-    
       <div className="flex items-center bg-white p-10 md:p-9">
-       
         <div>
-          <h2 className="text-[3vh] md:text-[5vh] font-bold mb-4 text-[#2d2e32]">
-            "Arquitectura con Enfoque en las Personas"
+          <h2 className=" text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl lg:leading-tight">
+            Arquitectura con Enfoque en las Personas
           </h2>
           <p className="text-gray-700">
             La Arquitectura centrada en las personas va más allá de lo estético.
@@ -27,7 +25,6 @@ function Seccion1() {
             fomentando la conexión humana y contribuyendo a la narrativa
             colectiva de la sociedad.
           </p>
-        
         </div>
       </div>
     </div>

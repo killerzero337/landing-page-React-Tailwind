@@ -12,14 +12,40 @@ function Carrusel() {
     "./assets/WannaLogo.webp",
     "./assets/Rload.webp",
   ];
-  const customPrevArrow = <img src={arrowLeftImage} alt="anterior" />;
-  const customNextArrow = <img src={arrowRightImage} alt="siguiente" />;
+  const customPrevArrow = (
+    <img
+      src={arrowLeftImage}
+      alt="anterior"
+      style={{
+        backgroundColor: "rgba(0, 0, 0, 0.2)",
+        width: "2vw",
+        height: "8vh",
+      }}
+    />
+  );
+  const customNextArrow = (
+    <img
+      src={arrowRightImage}
+      alt="siguiente"
+      style={{
+        backgroundColor: "rgba(0, 0, 0, 0.2)",
+        width: "2vw",
+        height: "8vh",
+      }}
+    />
+  );
   return (
-
-    <div className=" mt-5">
-      <div>
-        <h2 className=" text-center text-[2.5vh]">Nuestros fieles proveedores</h2>
-        <h3 className="text-center">Aquellos que confian en nuestros trabajo</h3>
+    <div className=" mt-5" id="Empresas">
+      <div className="max-w-3xl mx-auto text-center">
+        <h2 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl lg:leading-tight">
+          Nuestros fieles proveedores
+        </h2>
+        <p className="text-xl text-center">
+          Descubre la calidad y confiabilidad que nuestros fieles proveedores
+          aportan a cada proyecto. Con la confianza depositada en nuestro
+          trabajo, logramos crear espacios únicos y satisfacer las expectativas
+          de quienes eligen la excelencia en diseño de interiores.
+        </p>
       </div>
       <Slide
         prevArrow={customPrevArrow}
@@ -92,10 +118,12 @@ function Carrusel() {
             padding: "200px 0",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
+            transform: "scaleX(-1)",
             fontSize: "30px",
           }}
         ></div>
       </Slide>
+      <hr className="block sm:hidden bg-yellow-500 h-[0.3vh] my-10" />
     </div>
   );
 }
