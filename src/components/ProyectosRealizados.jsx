@@ -8,10 +8,13 @@ function ProyectosRealizados() {
               Proyectos realizados
             </h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600 lg:mx-0">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil
-              suscipit molestias praesentium officiis incidunt magnam, repellat
-              nostrum, quo, voluptate eum placeat commodi architecto ipsa.
-              Repellat quam at obcaecati voluptate quo?
+              Explora nuestra galería de proyectos de diseño de interiores,
+              donde cada espacio cobra vida con creatividad y funcionalidad.
+              Descubre cómo transformamos ideas en ambientes cautivadores y
+              funcionales para satisfacer las necesidades y gustos únicos de
+              nuestros clientes. En cada proyecto, buscamos la excelencia en
+              diseño para crear espacios que reflejen la personalidad y estilo
+              de quienes los habitan.
             </p>
           </div>
         </div>
