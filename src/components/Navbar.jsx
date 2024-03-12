@@ -3,7 +3,9 @@ function Navbar() {
   return (
     <>
       <div className="py-6 px-4 md:px-8 lg:px-16 bg-white flex justify-between md:text-[2vh] text-neutral-900 z-10 ">
-        <div className="bg-[url('/assets/logo-dark.png')] bg-center h-12 w-32 md:h-12 md:w-44 bg-contain bg-no-repeat"></div>
+        <a href="/">
+          <div className="bg-[url('/assets/logo-dark.png')] bg-center h-12 w-32 md:h-12 md:w-44 bg-contain bg-no-repeat"></div>
+        </a>
 
         <ul className="hidden md:flex items-center space-x-5 ">
           <li>
