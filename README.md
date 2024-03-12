@@ -6,3 +6,15 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Tecnologias utilizadas:
+
+1. React
+2. Tailwind
+3. CSS3
+4. JavaScript
+5. NPM
+6. Control de versiones con GIT
+7. Server con Nodemon
+8. Mongo.db (aun por implementar)
+
