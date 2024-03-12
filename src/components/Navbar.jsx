@@ -53,13 +53,13 @@ function Navbar() {
               <div className="w-6 h-1 -rotate-45 absolute bg-black"></div>
             </button>
             <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
-              <a href="#">Sobre nosotros</a>
+              <a href="#Sobre-Nosotros">Sobre nosotros</a>
             </li>
             <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
               <a href="#Form">Contacto</a>
             </li>
             <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
-              <a href="#Sobre-Nosotros">Nuestros proveedores</a>
+              <a href="#Empresas">Nuestros proveedores</a>
             </li>
             <li className="flex justify-center w-full py-3 md:py-4 hover:bg-yellow-500/50">
               <a href="#Proyectos">Proyectos realizados</a>
